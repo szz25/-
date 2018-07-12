@@ -1,0 +1,27 @@
+.weui-media-box_appmsg{
+  width: 100%;
+  padding: 30rpx 30rpx;
+  border-bottom: 2rpx solid #ccc;
+  box-sizing: border-box;
+}
+.enter{
+  width:60rpx;
+  height: 60rpx;
+  transform: rotate(-45deg);
+}
+.sel{
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  padding: 40rpx 0;
+}
+.sel>view{
+  background: #fff;
+}
+.img{
+  width: 30rpx;
+  height: 30rpx;
+}
+.con{
+  margin-top: 40rpx;
+}

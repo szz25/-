@@ -1,0 +1,96 @@
+/* pages/property/property.wxss */
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #EBEBEB;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #cfcfcf;
+}
+.sel{
+  width:100%;
+  height:100%;
+  background:#eee;
+}
+/* 底部 */
+.footer{
+  width:100%;
+}
+/* 图标 */
+.imgStyle{
+  height:50rpx;
+  width:55rpx;
+}
+.img{
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}
+.head{
+  width:100%;
+  height:300rpx;
+  background: #ccc;
+  padding:20rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.balance{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 转账/收款 */
+.deal,.regard,.income{
+  width:100%;
+  height: 200rpx;
+  background: #fff;
+  border-top: 2rxp solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 35rpx;
+  text-align: center;
+}
+.pen{
+  width: 80rpx;
+  height:80rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regard{
+  height: 150rpx;
+  margin-top: 20rpx;
+  font-size: 40rpx;
+}
+.fa{
+  width:77rpx;
+  height:77rpx;
+  border:2rpx solid #ccc;
+  border-radius:50%;
+  background:#fff;
+  text-align:center;
+  line-height:77rpx;
+  font-size:37rpx;
+}
+.income{
+  flex-direction: column;
+  height: 586rpx;
+}
+.incomeTit{
+  width: 100%;
+  padding: 20rpx 40rpx;
+  box-sizing: border-box;
+  text-align: left;
+  border-bottom: 2rpx solid #ccc;
+  font-size: 40rpx;
+}
+.canvas{
+  width: 100%;
+  height: 280rpx;
+}

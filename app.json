@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/property/property",
+    "pages/share/share",
+    "pages/registe/registe",
+    "pages/install/install",
+    "pages/transactionPass/transactionPass",
+    "pages/launch/launch",
+    "pages/collections/collections",
+    "pages/record/record",
+    "pages/particulars/particulars",
+    "pages/carry/carry",
+    "pages/content/content",
+    "pages/useHelp/useHelp",
+    "pages/about/about",
+    "pages/Feedback/Feedback",
+    "pages/Modify/Modify",
+    "pages/loginPass/loginPass",
+    "pages/pass/pass",
+    "pages/shou/shou",
+    "pages/success/success",
+    "pages/tang/tang",
+    "pages/transfer/transfer",
+    "pages/original/original",
+    "pages/details/details",
+    "pages/shouContent/shouContent",
+    "pages/shouDetails/shouDetails",
+    "pages/transferDetails/transferDetails"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/property/property",
+        "text": "资产",
+        "iconPath": "images/accet/u208.png",
+        "selectedIconPath": "images/accet/u205.png"
+      },
+      {
+        "pagePath": "pages/content/content",
+        "text": "内容",
+        "iconPath": "images/accet/u208.png",
+        "selectedIconPath": "images/accet/u205.png"
+      },
+      {
+        "pagePath": "pages/install/install",
+        "text": "设置",
+        "iconPath": "images/accet/u208.png",
+        "selectedIconPath": "images/accet/u205.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}

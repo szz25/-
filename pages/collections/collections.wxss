@@ -1,0 +1,32 @@
+.sel{
+  width: 80%;
+  height: 90%;
+  background: #fff;
+  margin-top: 5%;
+}
+#code{
+  width:357rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+}
+.howl{
+  margin-top: 20rpx;
+  display: block;
+  width:100%;
+  text-align: center;
+}
+.address{
+  display: block;
+  width:66%;
+  text-align: center;
+  word-break:break-all; 
+  margin: 0 auto;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+}
+.duplicate{
+  width:66%;
+  margin-top: 186rpx;
+  background: blue;
+  color: #fff;
+}

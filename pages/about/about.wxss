@@ -1,0 +1,11 @@
+.weui-footer{
+    margin-bottom: 50px;
+}
+.weui-footer_fixed-bottom{
+    margin-bottom: 0;
+}
+.img{
+  width: 400rpx;
+  height: 400rpx;
+  margin-top: 40rpx;
+}
