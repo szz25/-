@@ -2,7 +2,8 @@
 /* 标题 */
 .tit{
   font-weight: bolder;
-  font-size: 60rpx;
+  font-size: 50rpx;
+  margin-top: 2.5rem;
 }
 /* 手机号 */
 .main{
@@ -28,7 +29,7 @@
 .forget{
   float: right;
   margin-top: 20rpx;
-  font-size: 30rpx;
+  font-size: 27rpx;
   color: #ccc;
 }
 /* 下一步 */
@@ -38,4 +39,5 @@
   background: blue;
   color: #fff;
   box-sizing: border-box;
+  background:linear-gradient(to left,#f75523,orange);
 }

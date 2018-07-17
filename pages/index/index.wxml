@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class='tit'>
-    <text class='h1'>登陆{{openid}}</text>
+    <text class='h1'>登录{{openid}}</text>
   </view>
   <view class='main'>
     <view class="weui-cells weui-cells_after-title">
