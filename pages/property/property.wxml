@@ -2,7 +2,7 @@
 <view class='container'>
   <view class='sel'>
     <view class='head'>
-      <navigator url='../record/record'><image class='img imgStyle' src='../../images/accet/u200.png'></image></navigator>
+      <navigator url='../record/record'><image class='img' src='../../images/property/record.png'></image></navigator>
       <view class='balance'>
         <text style='font-size:90rpx;font-weight: 500;color:#fff;'>{{balance}}</text>
         <text style='font-size:30rpx;color:#fff;'>当前账户余额(BTC)</text>
