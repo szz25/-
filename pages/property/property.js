@@ -12,19 +12,22 @@ function initChart(canvas, width, height) {
   let option = {
     title: {
       text: '共收益 24BTC',
-      fontSize: '12',
-      x: 'left'
+      x: 'left',
+      textStyle: {
+        color: '#666',
+　　　　 fontSize: 14
+      }
     },
     legend: {
       orient: 'vertical',
-      left: '20',
+      left: '30',
       data: ['转发 10BTC', '评论 6BTC', '点赞 8BTC'],
-      top: '30'
+      top: '40'
     },
     series: [
       {
         type: 'pie',
-        radius: '70%',
+        radius: '65%',
         center: ['70%', '60%'],
         data: [
           { value: 62, name: '转发 10BTC' },
@@ -34,7 +37,7 @@ function initChart(canvas, width, height) {
         label: {
           position: 'inside'
         },
-        color: ['red', 'blue', 'skyblue']
+        color: ['#fc90b0', '#66a3fe', '#fdc588']
       }
     ]
   };
