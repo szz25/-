@@ -1,10 +1,12 @@
 <view class='sel'>
-  <view class='sel' wx:if="{{bool}}">
-    <input type='text' placeholder='邮箱'/>
-    <view class="weui-cells weui-cells_after-title">
-      <view class="weui-cell">
-        <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="请描述您遇到的问题以便我们提供更好的帮助"/>
+  <view class='box' wx:if="{{bool}}">
+    <view class="inputbox">
+      <input type='text' placeholder='邮箱'/>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <textarea class="weui-textarea" placeholder="请描述您遇到的问题以便我们提供更好的帮助"/>
+          </view>
         </view>
       </view>
     </view>
