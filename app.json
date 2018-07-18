@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/install/install",
     "pages/index/index",
     "pages/property/property",
     "pages/share/share",
+    "pages/install/install",
     "pages/registe/registe",
     "pages/transactionPass/transactionPass",
     "pages/launch/launch",
