@@ -29,7 +29,7 @@
 .forget{
   float: right;
   margin-top: 20rpx;
-  font-size: 27rpx;
+  font-size: 30rpx;
   color: #ccc;
 }
 /* 下一步 */
