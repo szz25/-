@@ -15,7 +15,7 @@ function initChart(canvas, width, height) {
       x: 'left',
       textStyle: {
         color: '#666',
-　　　　 fontSize: 14
+        fontSize: 14
       }
     },
     legend: {
@@ -84,19 +84,19 @@ Page({
    */
   onShow: function () {
     let that = this;
-    wx.startPullDownRefresh({
-      success: function () {
-        wx.request({
-          url: 'http://47.96.77.123:8080/html/user/getBalance?address=' + app.globalData.username,
-          success: (res) => {
-            console.log(res)
-            that.setData({
-              balance: res.data.data
-            })
-          }
-        })
-      }
-    })
+    // wx.startPullDownRefresh({
+    //   success: function () {
+    // wx.request({
+    //   url: 'http://47.96.77.123:8080/html/user/getBalance?address=' + app.globalData.username,
+    //   success: (res) => {
+    //     console.log(res)
+    //     that.setData({
+    //       balance: res.data.data
+    //     })
+    //   }
+    // })
+    //   }
+    // })
   },
 
   /**
@@ -117,7 +117,15 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-  
+    wx.request({
+      url: 'http://47.96.77.123:8080/html/user/getBalance?address=' + app.globalData.username,
+      success: (res) => {
+        console.log(res)
+        that.setData({
+          balance: res.data.data
+        })
+      }
+    })
   },
 
   /**

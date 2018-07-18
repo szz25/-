@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/install/install",
     "pages/index/index",
     "pages/property/property",
     "pages/share/share",
     "pages/registe/registe",
-    "pages/install/install",
     "pages/transactionPass/transactionPass",
     "pages/launch/launch",
     "pages/collections/collections",
@@ -26,7 +26,8 @@
     "pages/details/details",
     "pages/shouContent/shouContent",
     "pages/shouDetails/shouDetails",
-    "pages/transferDetails/transferDetails"
+    "pages/transferDetails/transferDetails",
+    "pages/invite/invite"
   ],
   "tabBar": {
     "list": [
