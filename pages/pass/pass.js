@@ -1,9 +1,5 @@
-// pages/pass/pass.js
 const app = getApp()
 Page({
-  /**
-   * 页面的初始数据
-   */
   data: {
     isFocus: false,
     cont: '请输入6位交易密码',

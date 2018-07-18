@@ -1,6 +1,13 @@
 {
   "pages": [
+<<<<<<< HEAD
+=======
+    "pages/index/index",
+    "pages/action/action",
+    "pages/content/content",
+>>>>>>> origin/master
     "pages/property/property",
+    "pages/invite/invite",
     "pages/share/share",
     "pages/install/install",
     "pages/registe/registe",
@@ -10,7 +17,6 @@
     "pages/record/record",
     "pages/particulars/particulars",
     "pages/carry/carry",
-    "pages/content/content",
     "pages/useHelp/useHelp",
     "pages/about/about",
     "pages/Feedback/Feedback",
@@ -19,14 +25,13 @@
     "pages/pass/pass",
     "pages/shou/shou",
     "pages/success/success",
-    "pages/tang/tang",
     "pages/transfer/transfer",
     "pages/original/original",
     "pages/details/details",
     "pages/shouContent/shouContent",
     "pages/shouDetails/shouDetails",
     "pages/transferDetails/transferDetails",
-    "pages/invite/invite"
+    "pages/rule/rule"
   ],
   "tabBar": {
     "list": [

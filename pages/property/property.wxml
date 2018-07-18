@@ -27,12 +27,7 @@
   <view class="split">
   </view>
   <view class='income'>
-    <navigator class='regard' url='../launch/launch'>
-       <!--  <text>甜甜心意，糖果派送</text>-->
-        <!--<navigator class='fa' url='../launch/launch'>
-          <text>GO</text>
-        </navigator>-->
-      </navigator>
+    <navigator class='regard' url='../launch/launch'></navigator>
     <text class='incomeTit'>今日收益</text>
     <view class='canvas'>
       <ec-canvas  id="mychart-dom-bar" style="width: 100%; height: auto;" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>

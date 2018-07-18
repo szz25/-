@@ -1,4 +1,3 @@
-/**index.wxss**/
 /* 标题 */
 .tit{
   font-weight: bolder;
