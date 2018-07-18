@@ -1,11 +1,8 @@
 {
   "pages": [
-<<<<<<< HEAD
-=======
     "pages/index/index",
     "pages/action/action",
     "pages/content/content",
->>>>>>> origin/master
     "pages/property/property",
     "pages/invite/invite",
     "pages/share/share",
