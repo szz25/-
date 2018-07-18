@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/index/index",        
     "pages/property/property",
     "pages/share/share",
     "pages/install/install",
@@ -49,7 +49,9 @@
         "iconPath": "images/accet/fo-r.png",
         "selectedIconPath": "images/accet/fo-r2.png"
       }
-    ]
+    ],
+    "selectedColor": "#f46712",
+    "color": "#5c5b5b"
   },
   "window": {
     "backgroundTextStyle": "light",
