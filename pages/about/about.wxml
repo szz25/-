@@ -1,6 +1,7 @@
 <view class='container'>
-  <view>
-    <image src='../../images/about/u1339.png' class='img'></image>
+  <view class="logobox" style="width:236rpx">
+    <image src='../../images/about/logo.png' class='img'></image>
+    <text>长链钱包</text>
   </view>
  <view class="weui-footer weui-footer_fixed-bottom">
     <view class="weui-footer__links">
