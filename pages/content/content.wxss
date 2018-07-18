@@ -1,8 +1,20 @@
+.box_title{
+  font-size: 15px;
+}
+.weui-media-box__hd_in-appmsg {
+  margin-right: 0;
+}
+.weui-media-box {
+  position:inherit;
+}
+
 .weui-media-box_appmsg{
   width: 100%;
   padding: 30rpx 30rpx;
-  border-bottom: 2rpx solid #ccc;
   box-sizing: border-box;
+  background:#fff;
+  margin-bottom:5px;
+
 }
 .enter{
   width:60rpx;
@@ -12,12 +24,11 @@
 .sel{
   width: 100%;
   height: 100%;
-  padding: 40rpx 0;
-  background: #fff;
+  border-top: 1px solid #eee;
 }
 .img{
-  width: 30rpx;
-  height: 30rpx;
+  width: 20rpx;
+  height: 32rpx;
 }
 .con{
   margin-top: 40rpx;
