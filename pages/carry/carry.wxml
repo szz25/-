@@ -1,11 +1,11 @@
 <!--pages/carry/carry.wxml-->
-<view class='container' style='background:#eee;'>
+<view class='container'>
   <view class='pages'>
     <form style='margin-top:64rpx;display:block;'>
       <view style='display:flex;align-items: center;justify-content: space-between;'>
         <view style='display:flex;align-items: center;'>
-          <text style='width:12rpx;height:54rpx;background:#999;display:inline-block;'></text>
-          <text style='margin-left:20rpx;font-size:40rpx;'>转账地址</text>
+          <text style='width:4rpx;height:41rpx;background:#f78223;display:inline-block;'></text>
+          <text style='margin-left:20rpx;font-size:30rpx;'>转账地址</text>
         </view>
         <image src='../../images/sao.png' class='imgStyle' bindtap='scan'></image>
       </view>
@@ -13,11 +13,11 @@
     </form>
     <form style='margin-top:64rpx;display:block;'>
       <view style='display:flex;align-items: center;'>
-        <text style='width:12rpx;height:54rpx;background:#999;display:inline-block;'></text>
-        <text style='margin-left:20rpx;font-size:40rpx;'>转账金额</text>
+        <text style='width:4rpx;height:41rpx;background:#f78223;display:inline-block;'></text>
+        <text style='margin-left:20rpx;font-size:30rpx;'>转账金额</text>
       </view>
       <input type='text' placeholder='0.0000' class='inp' bindinput='price'></input>
     </form>
-    <pay style="margin-top: 230rpx;display:block;" btn="确定" address="{{address}}" money="{{money}}" url="../success/success"></pay> 
+    <pay style="margin-top: 190rpx;display:block;" btn="确定" address="{{address}}" money="{{money}}" url="../success/success"></pay> 
   </view>
 </view>

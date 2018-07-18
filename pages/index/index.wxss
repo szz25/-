@@ -36,7 +36,6 @@
 .btn{
   width:100%;
   margin-top: 140rpx;
-  background: blue;
   color: #fff;
   box-sizing: border-box;
   background:linear-gradient(to left,#f75523,orange);

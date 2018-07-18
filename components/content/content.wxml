@@ -10,20 +10,20 @@
       <view class="weui-media-box__desc">{{content.content}}</view>
       <view class="weui-media-box__info">
         <view class="weui-media-box__info__meta">
-          <image class='img' src='../../images/about/u1339.png'></image>
+          <image class='img' src='../../images/about/P.png'></image>
           {{content.tokens}}
         </view>
         <view>
           <view class="weui-media-box__info__meta">
-            <image class='img' src='../../images/about/u1339.png'></image>
+            <image class='img' src='../../images/about/good.png'></image>
             {{content.thumbs}}
           </view>
           <view class="weui-media-box__info__meta">
-            <image class='img' src='../../images/about/u1339.png'></image>
+            <image class='img' src='../../images/about/comment.png'></image>
             {{content.comment}}
           </view>
           <view class="weui-media-box__info__meta">
-            <image class='img' src='../../images/about/u1339.png'></image>
+            <image class='img' src='../../images/about/share.png'></image>
             {{content.relay}}
           </view>
         </view>

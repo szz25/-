@@ -1,13 +1,17 @@
 .sel{
-  width: 80%;
-  height: 90%;
+  width: 75%;
+  height: 62%;
   background: #fff;
-  margin-top: 5%;
+  margin-top: 10%;
+  border-radius: 3px;
 }
 #code{
   width:357rpx;
   margin: 0 auto;
   margin-top: 40rpx;
+}
+.canvas{
+  width:178px;
 }
 .howl{
   margin-top: 20rpx;
@@ -21,12 +25,12 @@
   text-align: center;
   word-break:break-all; 
   margin: 0 auto;
-  margin-top: 40rpx;
   font-size: 30rpx;
 }
 .duplicate{
-  width:66%;
-  margin-top: 186rpx;
-  background: blue;
+  width:90%;
+  margin-top: 30rpx;
+  background: linear-gradient(to left,#f75523,orange);
   color: #fff;
+  font-size:30rpx;
 }

@@ -25,7 +25,6 @@ input{
   padding: 20px;
 }
 .btn{
-  background: blue;
   color: #fff;
   margin-top: 150rpx;
   width: 90%;

@@ -1,10 +1,10 @@
 .save {
   color: #fff;
-  background: #00a2ff;
-  padding: 20rpx 0;
+  background:linear-gradient(to left,#f75523,orange);
+  padding: 16rpx 0;
   box-sizing: border-box;
   text-align: center;
-  font-size: 40rpx;
+  font-size: 38rpx;
   border-radius: 10rpx;
 }
 .wallets-password {

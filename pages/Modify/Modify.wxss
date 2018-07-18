@@ -11,14 +11,13 @@ label{
   font-size: 15px;
 }
 input{
-  padding: 18rpx;
+  padding: 17rpx;
   border: 1px solid #eee;
   border-radius: 3px;
   margin: 5px 0 10px 0;
 }
 button{
   margin-top: 100rpx;
-  background: blue;
   color: #fff;
   width: 90%;
   background:linear-gradient(to left,#f75523,orange);

@@ -7,8 +7,8 @@
         <text>枚</text>
       </view>
     </view>
-    <view class='change' wx:if="{{bool}}">每个人抽取到的固定金额,<text bindtap='change'>改为拼手气红包</text></view> 
-    <view class='change' wx:else>每个人抽取到的金额随机,<text bindtap='change'>改为普通红包</text></view> 
+    <view class='change' wx:if="{{bool}}">每个人抽取到的固定金额，<text bindtap='change'>改为拼手气红包</text></view> 
+    <view class='change' wx:else>每个人抽取到的金额随机，<text bindtap='change'>改为普通红包</text></view> 
     <view class='dai'>
       <text>糖包个数</text>
       <view style='display:flex;width:35%;align-items: center;'>
