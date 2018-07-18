@@ -1,4 +1,3 @@
-// pages/action/action.js
 var app = getApp();
 Page({
   data: {

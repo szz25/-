@@ -1,4 +1,3 @@
-/**index.wxss**/
 /* 标题 */
 .tit{
   font-weight: bolder;
@@ -29,7 +28,7 @@
 .forget{
   float: right;
   margin-top: 20rpx;
-  font-size: 27rpx;
+  font-size: 30rpx;
   color: #ccc;
 }
 /* 下一步 */

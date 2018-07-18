@@ -1,9 +1,4 @@
-// pages/launch/launch.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
     bool:true,
     price:{
@@ -20,59 +15,32 @@ Page({
   // 双向数据绑定
   chang:function (e) {
     if (e.detail.value){
-      this.setData({
-        price: {
-          totalMoney: e.detail.value,
-          extraInfo: this.data.price.extraInfo,
-          number: this.data.price.number
-        }
-      })
+      set(this, e.detail.value, this.data.price.extraInfo, this.data.price.number)
     }else{
-      this.setData({
-        price: {
-          totalMoney: "",
-          extraInfo: this.data.price.extraInfo,
-          number: this.data.price.number
-        }
-      })
+      set(this, "", this.data.price.extraInfo, this.data.price.number)
     }
   },
   extra:function(e){
     if (e.detail.value) {
-      this.setData({
-        price: {
-          extraInfo: e.detail.value,
-          number: this.data.price.number,
-          totalMoney: this.data.price.totalMoney
-        } 
-      })
+      set(this, this.data.price.totalMoney, e.detail.value, this.data.price.number)
     } else {
-      this.setData({
-        price: {
-          extraInfo: "",
-          number: this.data.price.number,
-          totalMoney: this.data.price.totalMoney
-        }
-      })
+      set(this, this.data.price.totalMoney, "", this.data.price.number)
     }
   },
   num: function (e) {
     if (e.detail.value) {
-      this.setData({
-        price: {
-          number: e.detail.value,
-          extraInfo: this.data.price.extraInfo,
-        totalMoney: this.data.price.totalMoney
-        } 
-      })
+      set(this, this.data.price.totalMoney, this.data.price.extraInfo, e.detail.value)
     } else {
-      this.setData({
-        price: {
-          number: "",
-          extraInfo: this.data.price.extraInfo,
-          totalMoney: this.data.price.totalMoney
-        }
-      })
+      set(this, this.data.price.totalMoney, this.data.price.extraInfo, "")
     }
   }
 })
+function set(that, totalMoney, extraInfo, number){
+  that.setData({
+    price: {
+      totalMoney: totalMoney,
+      extraInfo: extraInfo,
+      number: number
+    }
+  })
+}

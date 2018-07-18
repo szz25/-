@@ -7,10 +7,6 @@ Page({
       password: ""
     }
   },
-  //事件处理函数
-  onLoad: function () {
-  },
-  //手机号
   bindCountryCodeChange: function (e) {
     console.log('picker country code 发生选择改变，携带值为', e.detail.value);
     this.setData({

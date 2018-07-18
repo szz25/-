@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/action/action",
-    "pages/invite/invite",
     "pages/index/index",
+    "pages/action/action",
+    "pages/content/content",
     "pages/property/property",
+    "pages/invite/invite",
     "pages/share/share",
     "pages/install/install",
     "pages/registe/registe",
@@ -13,7 +14,6 @@
     "pages/record/record",
     "pages/particulars/particulars",
     "pages/carry/carry",
-    "pages/content/content",
     "pages/useHelp/useHelp",
     "pages/about/about",
     "pages/Feedback/Feedback",
@@ -22,7 +22,6 @@
     "pages/pass/pass",
     "pages/shou/shou",
     "pages/success/success",
-    "pages/tang/tang",
     "pages/transfer/transfer",
     "pages/original/original",
     "pages/details/details",
@@ -36,22 +35,24 @@
       {
         "pagePath": "pages/property/property",
         "text": "资产",
-        "iconPath": "images/accet/u208.png",
-        "selectedIconPath": "images/accet/u205.png"
+        "iconPath": "images/accet/fo-l2.png",
+        "selectedIconPath": "images/accet/fo-l.png"
       },
       {
         "pagePath": "pages/content/content",
         "text": "内容",
-        "iconPath": "images/accet/u208.png",
-        "selectedIconPath": "images/accet/u205.png"
+        "iconPath": "images/accet/fo-c.png",
+        "selectedIconPath": "images/accet/fo-c2.png"
       },
       {
         "pagePath": "pages/install/install",
         "text": "设置",
-        "iconPath": "images/accet/u208.png",
-        "selectedIconPath": "images/accet/u205.png"
+        "iconPath": "images/accet/fo-r.png",
+        "selectedIconPath": "images/accet/fo-r2.png"
       }
-    ]
+    ],
+    "selectedColor": "#f46712",
+    "color": "#5c5b5b"
   },
   "window": {
     "backgroundTextStyle": "light",
