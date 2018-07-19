@@ -28,7 +28,7 @@
 .btn{
   width:100%;
   margin-top: 140rpx;
-  background: blue;
+  background: linear-gradient(to left, orangered, orange);
   color: #fff;
   box-sizing: border-box;
 }
